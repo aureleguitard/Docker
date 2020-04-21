@@ -1,0 +1,3 @@
+docker swarm init --advertise-addr $(docker-machine ip Char)
+
+# https://searchitoperations.techtarget.com/definition/Docker-Swarm

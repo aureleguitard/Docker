@@ -1,0 +1,2 @@
+docker run -it --rm alpine /bin/sh
+#-it : interactive terminal avec alpine | --rm: ontainer deletes itselfonce the shell’s execution is done | utiliser /bin/sh pour lancer terminal.

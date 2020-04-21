@@ -1,0 +1,3 @@
+docker run --name roach-warden -d --link spawning-pool:db -p 8081:80 phpmyadmin/phpmyadmin
+
+#Je link nom-du-container:nom-de-l'image donc mon sql et la database.

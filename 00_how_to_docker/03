@@ -1,0 +1,4 @@
+#To see how to connect your Docker Client to the Docker Engine running on this virtual machine, run: 
+#/Users/auguitar/brew/Cellar/docker-machine/0.16.2/bin/docker-machine env Char
+# Run this command to configure your shell:
+eval $(docker-machine env Char)

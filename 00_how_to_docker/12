@@ -1,0 +1,2 @@
+docker run -d --name spawning-pool --restart=always -e MYSQL_ROOT_PASSWORD=Kerrigan -e MYSQL_DATABASE=zerglings -v hatchery:/var/lib/mysql mysql
+#-e pour set les variables d'environement | Restart policy to apply when a container exits | This way, once server is restarted, your existing applications should be able to connect to the server without any issues.
